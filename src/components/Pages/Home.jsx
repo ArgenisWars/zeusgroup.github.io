@@ -35,7 +35,7 @@ export const Home = () => {
             />
             </span> </h1>
             <aside className="botaos">
-              <Button link="#"  title= "Faça o seu orçamento"></Button>
+              <Button link="https://wa.me/554797050819"  title= "Faça o seu orçamento"></Button>
             </aside>
         </aside>
         <img data-aos="fade" src={img3} alt="dev" />

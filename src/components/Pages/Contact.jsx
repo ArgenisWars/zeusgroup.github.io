@@ -19,7 +19,7 @@ export const Contact = () => {
       <aside className="conteudoContato">
         <aside data-aos="fade-up" className="textoContact">
           <h1>Ficou Interessado<br></br><span>Entre em contato</span></h1>
-          <MegaButton link="#"  title= "Envie uma mensagem"></MegaButton>
+          <MegaButton link="https://wa.me/554797050819"  title= "Envie uma mensagem"></MegaButton>
         </aside>
         <img data-aos="fade-left" className="emailImg" src={Email} alt="Email" />
       </aside>
