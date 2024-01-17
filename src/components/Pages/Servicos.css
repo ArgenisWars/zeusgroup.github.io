@@ -1,0 +1,106 @@
+main.cardsArea {
+    margin: 0;
+    background-color: #171C22;
+    min-height: 100vh;
+    
+}
+
+aside.contentCards {
+    width: 90%;
+    margin: auto;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+
+
+}
+
+
+aside.textos h1 {    
+    padding: 3px 0;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-bottom: 50px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-align: justify;
+    white-space: nowrap;
+    color: #fff;
+
+}
+
+.txG {
+    font-size: 2.2rem;
+    font-weight: 300;
+}
+
+
+
+
+.verde {
+    color: #33D9A9;
+}
+
+aside.cards {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 8%;
+    padding-bottom: 90px;  
+    
+}
+
+
+
+@media screen and (max-width: 1130px) {
+    aside.contentCards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    @media screen and (max-width: 550px) {
+        .txG{
+            font-size: 1.8rem;
+            font-weight: 300;
+        }
+        }
+
+        @media screen and (max-width: 450px) {
+            .txG{
+                font-size: 1.5rem;
+            }
+            }
+
+    @media screen and (max-width: 345px) {
+        aside.contCard{
+            width: 250px;
+        }
+        }
+    
+
+    
+
+    
+    aside.textos h1 {
+        margin: auto;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    aside.cards {
+        display: flex;
+        gap: 25px;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        align-content: center;    
+        
+    }
+}
+
